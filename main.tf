@@ -1,24 +1,24 @@
 terraform {
-    required_providers {
-        aws = {
-            source = "hashicorp/aws"
-            version = "~>3.27"
-        }
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~>3.27"
     }
+  }
 
-    required_version = ">= 0.14.9"
+  required_version = ">= 0.14.9"
 }
 
 provider "aws" {
-    profile = "default"
-    region = "us-east-1"
+  profile = "default"
+  region  = "us-east-1"
 }
 
 resource "aws_instance" "app_server" {
-    ami = "ami-830c94e3"
-    instance_type = "t2.micro"
+  ami           = "ami-048f6ed62451373d9"
+  instance_type = "t2.micro"
 
-    tags = {
-        Name = "TestAppServerInstance"
-    }
+  tags = {
+    Name = "TestAppServerInstance"
+  }
 }

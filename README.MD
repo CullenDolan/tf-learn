@@ -1,2 +1,11 @@
 # Repo for working on my Terraform Associate Certification
-I might consider adding a gist for notes.
+## Set up
+- download tf cli
+- create sepereate directory
+- create main.tf
+```
+terraform init
+terraform fmt
+terraform validate
+terraform apply
+```

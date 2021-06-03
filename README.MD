@@ -3,6 +3,7 @@
 - download tf cli
 - create sepereate directory
 - create main.tf
+- learn about modules
 ```
 terraform init
 terraform fmt

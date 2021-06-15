@@ -1,4 +1,4 @@
-# Repo for working on my Terraform Associate Certification
+# Repo for working on my Terraform Associate Certification after completing AWS Solutions Architect - Associate
 ## Set up
 add book material
 - download tf cli
